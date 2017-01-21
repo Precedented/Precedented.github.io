@@ -5,13 +5,24 @@
 		<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css'>
 		<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
 		<link href="style.css" rel="stylesheet" type="text/css" />
+		<!--<style>
+			div {
+    		background-color: white;
+    		width: 1px;
+    		border: 1px solid green;
+    		padding: 1;
+    		margin: 1;
+			}
+		</style>-->
 	</head>
 	<body>
 		<div class="container" role="form">
 			<div class="row">
 				<div class="col-xs-12 searchMain">
 					<form method="post" action="bingsrchp.php" autocomplete="off">
-						<h1 class="text-center"> Precedented </h1>
+						<h1 class="text-center"> <div class="strokeme"> Precedented </div></h1>
+						<h4 class="text-center"> <i> <div class="strokeme">Your pocket guide to United States Federal and State law, code, and precedent</div></i></h1>
+
 						<div class="col-centered">
 							<input type='text' class="form-control" id='searchText' name='searchText' required />
 						    	<input class="btn btn-info" type="submit" value="Search" name="submit" id="searchButton" />

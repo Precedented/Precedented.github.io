@@ -10,11 +10,20 @@ h2,h3 {
 		margin-right: 5px;
 	}
 h1 {
-		color: black;
+		color: #121F1F;
 		font-size: 75px;		
 		margin-left: 5px;
 		margin-right: 5px;
-	}	
+	}
+.strokeme
+{
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}	
 a {
 		color: black;
 		font-size: 15px;
