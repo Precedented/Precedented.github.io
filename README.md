@@ -1,4 +1,4 @@
-## _Precedented_
+## Precedented
 
 In rural areas and small towns experienced attorneys range from $100 to $200 an hour and can even rise to a staggering $400 in major metropolitan areas. While the average American may choose to only leverage attorneys for major complex lawsuits, the use of a lawyer for a relatively minor civil lawsuit is often impractical both in time and resources. This leaves a large segment of the American population in the precarious dilemma of deciding whether or not they should pursue a lawsuit amid the daunting legal fees. For small claims and conciliation courts (settles disputes under $5,000), many American choose to represent themselves in order to spare themselves of massive attorney fees. More often than not, however, these individuals are entering court without the legal advise necessary to prepare themselves for their case, inevitably leading to unfavorable results.
 
