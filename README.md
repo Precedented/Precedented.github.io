@@ -1,14 +1,14 @@
-## Precedented
+## _Precedented_
 
 In rural areas and small towns experienced attorneys range from $100 to $200 an hour and can even rise to a staggering $400 in major metropolitan areas. While the average American may choose to only leverage attorneys for major complex lawsuits, the use of a lawyer for a relatively minor civil lawsuit is often impractical both in time and resources. This leaves a large segment of the American population in the precarious dilemma of deciding whether or not they should pursue a lawsuit amid the daunting legal fees. For small claims and conciliation courts (settles disputes under $5,000), many American choose to represent themselves in order to spare themselves of massive attorney fees. More often than not, however, these individuals are entering court without the legal advise necessary to prepare themselves for their case, inevitably leading to unfavorable results.
 
 We believe that if a person does not have the resources to perform an inalienable right, he or she has essentially forfeited that right. _Precedented_ aims to restore these rights to every American, enabling users to easily search relevant legal code and precedent, guiding them through the process of taking legal action to protect their home, property, and family.
 
-## What it does
+## What is _Precedented_
 
 _Precedented_ is an intuitive legal search engine incorporating cognitive computing to allow users to ask questions about legal precedent from both state and federal courts. After the user searches a question, _Precedented_ utilizes IBM Watson's sophisticated natural language processing SDK to interpret the query and execute a basic search. _Precedented_ then uses IBM Watson's Ranking learning algorithm, an enhanced information retrieval library with machine learning, to order over 3.3 million precedential opinions provided by Court Listener based on the contents of the court opinion. These court opinions are sorted by relevance and conveniently displayed to the user.
 
-## How we built it
+## How we built _Precedented_
 
 To develop _Precedented_ we utilized Apache Solr, Core, and Client Libraries to create a basic query mechanism over the corpus stored on the Court Listener severs.  When then ranked these results using IBM Watson’s Retrieve and Rank SDK.  Using training data we produced with a python algorithm with ground truths we taught the program to parse the English language and search for key legal terms. The ranking algorithm than ordered the results, providing the user with a series of links to the most relevant cases.
 
